@@ -1,0 +1,17 @@
+# exclude source code files and build artifacts
+src/
+dist/*.map
+dist/*.ts
+dist/*.tsx
+tsconfig.json
+
+
+# exclude test files
+__tests__/
+*.test.*
+
+# exclude files and directories
+node_modules/
+*.log
+*.ts
+/.git
